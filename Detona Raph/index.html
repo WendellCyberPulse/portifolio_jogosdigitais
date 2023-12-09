@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--configurações  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detona Ralph - The Game</title>
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Folhas de Estilo -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Menu do jogo -->
+        <div class="menu">
+            <div class="time">
+                <H2 style="color: red;">TIME left</H2>
+                <H2 id="Time-left" style="margin-top: 10px;">0</H2>
+            </div>
+            <div class="score">
+                <H2 style="color: red;">SCORE</H2>
+                <H2 id="score" style="margin-top: 10px;">0</H2>
+            </div>
+            <div class="lives">
+                <img src="./imgs/Player.png" alt="foto do player" height="70px">
+                <h2>x3</h2>
+            </div>
+
+        </div>
+        <!-- Painel principal -->
+        <div class="panel">
+            <div class="panel-row">
+                <div class="square" id="1"></div>
+                <div class="square" id="2"></div>
+                <div class="square" id="3"></div>
+            </div>
+
+            <div class="panel-row">
+                <div class="square" id="4"></div>
+                <div class="square" id="5"></div>
+                <div class="square" id="6"></div>
+            </div>
+
+            <div class="panel-row">
+                <div class="square" id="7"></div>
+                <div class="square" id="8"></div>
+                <div class="square" id="9"></div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script defer src="./scripts/main.js" ></script>
+</body>
+</html>

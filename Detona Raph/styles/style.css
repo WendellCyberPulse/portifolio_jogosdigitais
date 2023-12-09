@@ -1,0 +1,46 @@
+body{
+    background-color: green
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../imgs/wall.jpg);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 90px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border-bottom: 5px solid #ffd900;
+}
+
+.panel {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid #000;
+    background-color: #7cecc7;
+}
+
+.enemy{
+    background-image: url("../imgs/Detona.png");
+    background-size: cover;
+}
+
+.lives{
+    display: flex;
+}
