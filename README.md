@@ -43,3 +43,22 @@ Em 2023 Realizei um bootcamp pela DIO em Jogos Digitais certificações em:
 -- Link do Projeto: https://github.com/WSDevgames/reposit1 
 - Contribuição de Projeto OpenSource no GitHub
 -- Link do Projeto: https://github.com/WSDevgames/dio-lab-open-source
+- Entendendo Comunicação Cliente x Server
+- Introdução ao HTML
+- Trabalhando com Formularios HTML
+- Estrutura de HTML + Formatações
+- Fundamentos do  CSS
+- Estilizações Basicas com CSS
+- Criação de Landing page com HTML e CSS
+- Primeiros passos com JavaScript(JS)
+- Conhecendo Funções do JS
+- Criando Objetos e Classes em JS
+- Arrays e Estrutura de Repetição em JS
+- Importação e Exportação em JS
+- Criando Primeiro projeto HTMl/CSS para listagem de pokemons
+- Logica e Pensamento computacional
+- Aprendendo variaveis, Escopos e Tipos de Dados no JS
+- Orientação a prototipo no JavaScript
+- Promisses e Assincronos no JS
+- Criando o Jogo do Detona Ralph com JS
+- Criando Jogo da Memória com Emojis usando JS
