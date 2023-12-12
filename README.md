@@ -22,7 +22,7 @@ Meu Nome  é Wendell Adriano de Souza entrei para área de jogos digitais em 202
 - Empreendedorismo e criação de novos Negocios 
 - Game Design
 - Programação para jogos 2D e Animação
-  -- Link do projeto de jogo desenvolvido durante o periodo: [AsteroidX1](https://i.simmer.io/@WendellSouza/asteroid-x1)
+  -- Link do projeto de jogo desenvolvido durante o periodo: [AsteroidX1](https://i.simmer.io/@WendellSouza/asteroid-x1) [Pega-conchas](https://i.simmer.io/@WendellSouza/pega-conchas)
 ## Mobile Game Developer 
 - Criação , Navegação e implementação de Jogos
 - Praticas Integradoras a desenvolvimento de Apps
