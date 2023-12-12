@@ -22,6 +22,7 @@ Meu Nome  é Wendell Adriano de Souza entrei para área de jogos digitais em 202
 - Empreendedorismo e criação de novos Negocios 
 - Game Design
 - Programação para jogos 2D e Animação
+  -- Link do projeto de jogo desenvolvido durante o periodo: [AsteroidX1](https://i.simmer.io/@WendellSouza/asteroid-x1)
 ## Mobile Game Developer 
 - Criação , Navegação e implementação de Jogos
 - Praticas Integradoras a desenvolvimento de Apps
@@ -40,9 +41,9 @@ Em 2023 Realizei um bootcamp pela DIO em Jogos Digitais certificações em:
 - Versionamento de Código com Git e GitHub
 - Projetos de Versionamento de Código
 - Criação de Repositório Para o GitHub
--- Link do Projeto: https://github.com/WSDevgames/reposit1 
+-- Link do Projeto: [Meu primeiro repositorio](https://github.com/WSDevgames/reposit1 )
 - Contribuição de Projeto OpenSource no GitHub
--- Link do Projeto: https://github.com/WSDevgames/dio-lab-open-source
+-- Link do Projeto: [projeto OpenSource](https://github.com/WSDevgames/dio-lab-open-source)
 - Entendendo Comunicação Cliente x Server
 - Introdução ao HTML
 - Trabalhando com Formularios HTML
