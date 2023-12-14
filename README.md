@@ -63,3 +63,5 @@ Em 2023 Realizei um bootcamp pela DIO em Jogos Digitais certificações em:
 - Promisses e Assincronos no JS
 - Criando o Jogo do Detona Ralph com JS
 - Criando Jogo da Memória com Emojis usando JS
+- Construindo um Simulador de Piano com JavaScript
+
