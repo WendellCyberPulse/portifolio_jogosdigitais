@@ -1,0 +1,146 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #e3f2fd;
+    user-select: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 780px;
+    border-radius: 20px;
+    padding: 35px 40px;
+    border: 2px solid black;
+    background-color: #8B4513;
+}
+
+.container header{
+    color:#0000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h2 {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+header .colunm {
+    display: flex;
+    align-items: center;
+}
+
+
+header .colunm span{
+    font-weight: 500;
+    margin-right: 15px;
+    font-size: 1.19rem;
+    color: #fff;
+}
+
+.Volume-control input{
+    accent-color: #FFD700;
+
+}
+
+.keys-Check input{
+    width: 60px;
+    height: 30px;
+    appearance: none;
+    border-radius: 30px;
+    background-color: black;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.keys-Check input::before{
+    content: "";
+    background-color: #ff1313;
+    height: 20px;
+    width: 20px;
+    top: 50%;
+    left: 0.3rem;
+    border-radius: inherit;
+    position: absolute;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+
+.keys-Check
+input:checked::before{
+    left: 2.1rem;
+    background-color: #0bfa0b;   
+}
+
+.piano-keys{
+    display: flex;
+    margin-top: 40px; 
+
+}
+
+.piano-keys .key{
+    cursor: pointer;
+    list-style: none;
+    color: #a2a2a2;
+    user-select:none;
+    position: relative; 
+    text-transform: uppercase;
+}
+
+.piano-keys .White{
+    width: 70px;
+    height: 230px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: linear-gradient(#fff 96%, #eee 4%);
+}
+
+.piano-keys .Black{
+    width: 44px;
+    height: 140px;
+    z-index: 2;
+    margin: 0 -22px 0 -22px;
+    border-radius: 0 0 5px 5px;
+    border: 2px solid black;
+    background: linear-gradient(#000, #333);
+    border-radius: 8px;
+    color: #fff;
+}
+
+.piano-keys .White span {
+    position: relative;
+    width: 100%;
+    font-size: 1.13rem;
+    bottom: -200px;
+    left: 15px;
+
+}
+.piano-keys .Black span {
+    position: relative;
+    width: 100%;
+    font-size: 1.13rem;
+    left: 15px;
+
+}
+
+
+.piano-keys .White.active{
+    box-shadow: inset -5px 5px 20px rgba(0,0,0,0.2);
+    background: linear-gradient(to bottom #fff 0%, #eee 100%);
+}
+
+.piano-keys .Black.active{
+    box-shadow: inset -5px 5px 20px rgba(255,255,255,0.1);
+    background: linear-gradient(to bottom #000, #434343);
+}
+
+.piano-keys .keys.hide span{
+    display: none;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Piano</title>
+    <!-- folhas de estilo -->
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <link rel="stylesheet" href="./Styles/reset.css">
+    
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <h2>Piano Virtual</h2>
+            <div class="colunm Volume-control">
+                 <span>Volume</span> <br>
+                 <input type="range">
+            </div>
+            <div class="colunm keys-Check">
+                <span>Teclas</span> <br>
+                 <input type="checkbox" checked>
+            </div>
+        </header>
+        <!-- Teclas do Piano -->
+        <ul class="piano-keys">
+            <li class="keys White" data-key = "A" ><span>A</span></li>
+            <li class="keys Black" data-key = "W" ><span>W</span></li>
+            <li class="keys White" data-key = "S" ><span>S</span></li>
+            <li class="keys Black" data-key = "E" ><span>E</span></li>
+            <li class="keys White" data-key = "D" ><span>D</span></li>
+            <li class="keys Black" data-key = "F" ><span>F</span></li>
+            <li class="keys White" data-key = "T" ><span>T</span></li>
+            <li class="keys Black" data-key = "G" ><span>G</span></li>
+            <li class="keys White" data-key = "Y" ><span>Y</span></li>
+            <li class="keys Black" data-key = "H" ><span>H</span></li>
+            <li class="keys White" data-key = "U" ><span>U</span></li>
+            <li class="keys Black" data-key = "J" ><span>J</span></li>
+            <li class="keys White" data-key = "K" ><span>K</span></li>
+            <li class="keys Black" data-key = "O" ><span>O</span></li>
+            <li class="keys White" data-key = "L" ><span>L</span></li>
+            <li class="keys Black" data-key = "P" ><span>P</span></li>
+            <li class="keys White" data-key = "Ç" ><span>Ç</span></li> 
+        </ul>
+        
+    </div>
+
+    <script src="./Scripts/main.js" defer></script>
+</body>
+</html>
