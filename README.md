@@ -62,6 +62,8 @@ Em 2023 Realizei um bootcamp pela DIO em Jogos Digitais certificações em:
 - Orientação a prototipo no JavaScript
 - Promisses e Assincronos no JS
 - Criando o Jogo do Detona Ralph com JS
+- Link do projeto: [Detona Ralph - The Game](https://wendellcyberpulse.github.io/detonaRalph-jogo/)
 - Criando Jogo da Memória com Emojis usando JS
+- Link fo projeto: [Jogo da Memoria - Emojis](https://wendellcyberpulse.github.io/jogo-da-memoria-emojis/)
 - Construindo um Simulador de Piano com JavaScript
 
