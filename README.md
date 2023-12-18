@@ -66,4 +66,6 @@ Em 2023 Realizei um bootcamp pela DIO em Jogos Digitais certificações em:
 - Criando Jogo da Memória com Emojis usando JS
 - Link fo projeto: [Jogo da Memoria - Emojis](https://wendellcyberpulse.github.io/jogo-da-memoria-emojis/)
 - Construindo um Simulador de Piano com JavaScript
+- Criando um Jogo de Cartas de Yu-Gi-Oh! utilizando JS e CSS
+- Link do Projeto:  [Yu-Gi-Oh!:Jo-Ken-Po!](https://wendellcyberpulse.github.io/Yu-gi-Oh--JoKenPo/)
 
