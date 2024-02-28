@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <!--Folha de Estilo-->
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #222;
+            color: #fff;
+        }
+        #game-board {
+            border: 2px solid #008000;
+        }
+    </style>
+</head>
+<body>
+    <!-- placar de pontuação e hub do jogo-->
+    <canvas id="game-board" width="400" height="400"></canvas>
+    <div id="score"></div>
+
+    <!-- programação do jogo-->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const canvas = document.getElementById("game-board");
+            const ctx = canvas.getContext("2d");
+            const box = 20;
+            let snake = [{ x: 200, y: 200 }, { x: 180, y: 200 }, { x: 160, y: 200 }];
+            let food = { x: Math.floor(Math.random() * 20) * box, y: Math.floor(Math.random() * 20) * box };
+            let dx = 20;
+            let dy = 0;
+            let score = 0;
+
+            //Definindo os comando de movimentação da cobrinha nas 4 direções
+            document.addEventListener("keydown", changeDirection);
+
+            function changeDirection(event) {
+                const keyPressed = event.keyCode;
+                if (keyPressed === 37 && dx !== box) { dx = -box; dy = 0; }
+                if (keyPressed === 38 && dy !== box) { dx = 0; dy = -box; }
+                if (keyPressed === 39 && dx !== -box) { dx = box; dy = 0; }
+                if (keyPressed === 40 && dy !== -box) { dx = 0; dy = box; }
+            }
+
+            function draw() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                snake.forEach(drawSnakePart);
+                drawFood();
+                moveSnake();
+                if (isGameOver()) {
+                    clearInterval(game);
+                    alert("Game Over! Score: " + score);
+                }
+                drawScore();
+            }
+            // criando a cobrinha
+            function drawSnakePart(snakePart, index) {
+                ctx.fillStyle = index === 0 ? "#ff0" : "#008000"; // Cor da cabeça é amarela, corpo é branco
+                ctx.fillRect(snakePart.x, snakePart.y, box, box);
+            }
+            //criando a "maça"
+            function drawFood() {
+                ctx.fillStyle = "#f00";
+                ctx.fillRect(food.x, food.y, box, box);
+            }
+
+            //Função de movimento e tamanho da cobra e contagem de pontos 
+
+            function moveSnake() {
+                const head = { x: snake[0].x + dx, y: snake[0].y + dy };
+                snake.unshift(head);
+                if (head.x === food.x && head.y === food.y) {
+                    score += 10;
+                    food = { x: Math.floor(Math.random() * 20) * box, y: Math.floor(Math.random() * 20) * box };
+                } else {
+                    snake.pop();
+                }
+            }
+
+            //tela de Game Over
+
+            function isGameOver() {
+                return (
+                    snake[0].x < 0 ||
+                    snake[0].x >= canvas.width ||
+                    snake[0].y < 0 ||
+                    snake[0].y >= canvas.height ||
+                    snake.slice(1).some(part => part.x === snake[0].x && part.y === snake[0].y)
+                );
+            }
+
+            function drawScore() {
+                document.getElementById("score").innerHTML = "Score: " + score;
+            }
+
+            const game = setInterval(draw, 150);
+        });
+    </script>
+</body>
+</html>
