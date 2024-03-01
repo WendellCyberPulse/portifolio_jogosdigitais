@@ -68,5 +68,4 @@ Em 2023 Realizei um bootcamp pela DIO em Jogos Digitais certificações em:
 - Construindo um Simulador de Piano com JavaScript
 - Criando um Jogo de Cartas de Yu-Gi-Oh! utilizando JS e CSS
 - Link do Projeto:  [Yu-Gi-Oh!:Jo-Ken-Po!](https://wendellcyberpulse.github.io/Yu-gi-Oh--JoKenPo/)
-- <button onclick = "window.location.href='https://wendellcyberpulse.github.io/Yu-gi-Oh--JoKenPo/'> jogo do Yu-Gi-Oh!</button>
 
