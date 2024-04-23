@@ -1,5 +1,6 @@
 # Wendell Adriano de Souza
 | wendellsouzagamedev@gmail.com   | +55 31 98442-2154 |
+|---------------------------------|-------------------|
    
 Meu Nome  é Wendell Adriano de Souza entrei para área de jogos digitais em 2022, quando ingressei na faculdade, sou de Ribeirão das Neves,  Minas Gerais,  Sou formado em Técnico  em Informática pelo Sistema Divina Providência, hoje sou estudante de Jogos Digitais pela faculdade Digital Descomplica, e instrutor de informática básica. Atualmente utilizo a Unity e a Godot Engine como plataforma da programação para jogos 2D
 # Formação Acadêmica
