@@ -80,10 +80,11 @@ Em 2023 Realizei um bootcamp pela DIO em Jogos Digitais certificações em:
   ## Nível de Conhecimento em Áreas de Programação
 | Área de Programação | Nível de Conhecimento |
 |---------------------|-----------------------|
-| Python              | ████████░░░░░░░░░░░░ |
-| JavaScript          | ████████████░░░░░░░ |
-| HTML/CSS            | █████████░░░░░░░░░░ |
+| Python              | ████████████████░░░░ |
+| JavaScript          | ████████░░░░░░░░░░░  |
+| HTML/CSS            | █████████████░░░░░ |
 | Java                | █████░░░░░░░░░░░░░░ |
-| C++                 | ██████░░░░░░░░░░░░░ |
+| GDScript            | ████████████████░░░░░░░░ |
+| C#                  | ████████░░░░░░░░░░░░░░░░ |
 
 
