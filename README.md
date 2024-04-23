@@ -33,6 +33,13 @@ Meu Nome  é Wendell Adriano de Souza entrei para área de jogos digitais em 202
 ## Multiplayer Game Developer
 - Praticas integradoras a tecnologias Disruptivas
 - Programação Multiplayer
+## Disruption Games
+- Desenvolvimento de Algoritmos de Inteligencia Artificial
+- Interface e Experiência do Usuário
+- Técnicas AudioVisuais
+## Game Design
+- Prática Integradora de Desenvolvimento de Jogos
+- Serious Games, Advergames e Newsgames
 
 # Digital Innovation One - Bootcamp 
 Em 2023 Realizei um bootcamp pela DIO em Jogos Digitais certificações em:
