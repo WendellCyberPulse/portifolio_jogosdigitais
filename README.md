@@ -76,3 +76,14 @@ Em 2023 Realizei um bootcamp pela DIO em Jogos Digitais certificações em:
 - Criando um Jogo de Cartas de Yu-Gi-Oh! utilizando JS e CSS
 - Link do Projeto:  [Yu-Gi-Oh!:Jo-Ken-Po!](https://wendellcyberpulse.github.io/Yu-gi-Oh--JoKenPo/)
 
+  #Meus conhecimentos em Programação
+  ## Nível de Conhecimento em Áreas de Programação
+| Área de Programação | Nível de Conhecimento |
+|---------------------|-----------------------|
+| Python              | ████████░░░░░░░░░░░░ |
+| JavaScript          | ████████████░░░░░░░ |
+| HTML/CSS            | █████████░░░░░░░░░░ |
+| Java                | █████░░░░░░░░░░░░░░ |
+| C++                 | ██████░░░░░░░░░░░░░ |
+
+
