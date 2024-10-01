@@ -42,6 +42,10 @@ Meu Nome  é Wendell Adriano de Souza entrei para área de jogos digitais em 202
 ## Game Design
 - Prática Integradora de Desenvolvimento de Jogos
 - Serious Games, Advergames e Newsgames
+## Social Media & Marketing 
+- Balanceamento para jogos
+- Modelos de gestão
+- Redes Sociais e Marketing Digital
 
 # Digital Innovation One - Bootcamp 
 Em 2023 Realizei um bootcamp pela DIO em Jogos Digitais certificações em:
